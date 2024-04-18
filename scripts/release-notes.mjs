@@ -6,7 +6,8 @@ import { URL } from 'url';
 
 import { renderMarkdown } from './utils.mjs';
 
-const __dirname = new URL('.', import.meta.url).pathname;
+// const __dirname = new URL('.', import.meta.url).pathname;
+const __dirname = "ionic-docs/"
 const OUTPUT_PATH = resolve(__dirname, '../src/components/page/reference/ReleaseNotes/release-notes.json');
 
 // export default {

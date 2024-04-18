@@ -30,7 +30,7 @@ const ARCHIVED_VERSIONS_JSON = require('./versionsArchived.json');
  */
 const ArchivedVersionsDropdownItems = Object.entries(ARCHIVED_VERSIONS_JSON).splice(0, 5);
 
-const BASE_URL = '/docs';
+const BASE_URL = '';
 
 module.exports = {
   title: 'Ionic Documentation',
