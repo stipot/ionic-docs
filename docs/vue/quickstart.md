@@ -56,7 +56,7 @@ npm uninstall --save typescript @types/jest @typescript-eslint/eslint-plugin @ty
 
 5. Remove `Array<RouteRecordRaw>` and the import of `RouteRecordRaw` from `src/router/index.js`.
 
-6. Delete the `src/shims-vue.d.ts` file if it exists. This is only needed when using the Vue CLI.
+6. Delete the `src/vite-env.d.ts` file if it exists.
 
 7. Remove `lang="ts"` from the `script` tags in any of your Vue components that have them. In a blank Ionic Vue app, this should only be `src/App.vue` and `src/views/HomePage.vue`.
 
@@ -189,7 +189,7 @@ Now the `App` component does not really have a lot to modify here. It is a basic
 
 Currently, the `Home` component looks like so:
 
-![Vue home component](/img/guides/vue/first-app/home-route.png)
+![A web browser displaying the Ionic Vue home route with a header titled 'Blank' and a message 'Ready to create an app? Start with Ionic UI Components'.](/img/guides/vue/first-app/home-route.png 'Ionic Vue Home Route Interface')
 
 ```html
 <template>
